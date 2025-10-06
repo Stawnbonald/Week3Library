@@ -27,9 +27,9 @@ namespace LibraryApp2
 
         public Book(string bookTitle, string bookAuthor, string bookISBN)
         {
-            Title = bookTitle;
-            Author = bookAuthor;
-            ISBN = bookISBN;
+            this.Title = bookTitle;
+            this.Author = bookAuthor;
+            this.ISBN = bookISBN;
         }
 
         public void DisplayInfo()

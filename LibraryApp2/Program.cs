@@ -6,7 +6,7 @@ class Program
     {
         Book book = new Book("The Great Gatsby", "F. Scott Fitzgerald", "9780743273565");
         Book book1 = new Book("To Kill a Mockingbird", "Harper Lee", "9780061120084");
-        Console.WriteLine("Currently available books:");)
+        Console.WriteLine("Currently available books:");
         book.DisplayInfo(); 
         book1.DisplayInfo();
 
@@ -17,5 +17,8 @@ class Program
         Console.WriteLine("Library Members:");
         member.DisplayInfo();
         member1.DisplayInfo();
+
+        Console.ReadLine();
+        Console.Beep();
     }
 }
