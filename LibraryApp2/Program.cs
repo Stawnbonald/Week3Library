@@ -1,30 +1,12 @@
-﻿class Book
-{
-    string Title;
-    string Author;
-    string ISBN;
+﻿using LibraryApp2;
 
-    public Book(string bookTitle, string bookAuthor, string bookISBN)
+class Program
+{     static void Main(string[] args)
     {
-        Title = bookTitle;
-        Author = bookAuthor;
-        ISBN = bookISBN;
-    }
+        Book book = new Book("The Great Gatsby", "F. Scott Fitzgerald", "9780743273565");
+        
+        book.DisplayInfo(); 
 
-    void DisplayInfo()
-    {
-        Console.WriteLine($"Book title: {Title}");
-        Console.WriteLine($"Book Author: {Author}");
-        Console.WriteLine($"Book ISBN: {ISBN}");
-        Console.WriteLine();
-    }
 
-    static void Main(string[] args)
-    {
-        // Create a new instance (object) of the Book class
-        // Note how the object name differs from the class name
-        Book book = new Book("C# for beginners", "Bill Gates", "1234567");
-
-        book.DisplayInfo();
     }
 }
