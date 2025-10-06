@@ -11,18 +11,18 @@ namespace LibraryApp2
 
         public string Title
         {
-            get { return Title; }  
-            set { Title = value; }  
+            get { return title; }  
+            set { title = value; }  
         }
         public string Author
         {
-            get { return Author; }  
-            set { Author = value; }
+            get { return author; }  
+            set { author = value; }
         }
         public string ISBN
         {
-            get { return ISBN; }  
-            set { ISBN = value; }
+            get { return isbn; }  
+            set { isbn = value; }
         }
 
         public Book(string bookTitle, string bookAuthor, string bookISBN)
