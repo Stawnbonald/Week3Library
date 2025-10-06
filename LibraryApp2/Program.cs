@@ -18,6 +18,11 @@ class Program
         member.DisplayInfo();
         member1.DisplayInfo();
 
+        Person person = new Person(); // Create an instance of Person
+        person.FirstName = "Alice"; // Set first name#
+        person.LastName = "Johnson"; // Set last name   
+        Console.WriteLine(person.GetFullName); // Display full name
+
         Console.ReadLine();
         Console.Beep();
     }
